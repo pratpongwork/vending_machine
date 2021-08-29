@@ -1,5 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  mode: 'universal',
+  target: 'server',
   head: {
     title: 'vending_machine',
     htmlAttrs: {
